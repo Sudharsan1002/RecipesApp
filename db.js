@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 
-const MONGODBURI = "mongodb://localhost:27017/";
+const MONGODBURI = "mongodb://localhost:27017/recipes";
 
 // FUNCTION TO CREATE DATABASE CONNECTIVITY
 async function createDbConnection() {
