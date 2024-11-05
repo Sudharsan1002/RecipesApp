@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGODBURI = "mongodb://127.0.0.1:27017/";
+const MONGODBURI = process.env.MONGODB_URI;
 
 // FUNCTION TO CREATE DATABASE CONNECTIVITY
 async function createDbConnection() {
