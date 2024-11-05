@@ -1,4 +1,4 @@
- SAMPLE RESPONSE:GET ALL PRODUCTS:
+ ### SAMPLE RESPONSE:GET ALL PRODUCTS:
 
  {
      "message": "Recipes fetched successfully",
@@ -27,7 +27,7 @@
 
 
 
-   SAMPLE RESPONSE:GET PRODUCTS BY ID
+### SAMPLE RESPONSE:GET PRODUCTS BY ID
 
 {
     "message": "Recipe fetched successfully",
@@ -46,7 +46,7 @@
 
 
 
-SAMPLE REQUEST:CREATE RECIPE
+### SAMPLE REQUEST:CREATE RECIPE
 
  {
     "name":"parotta",
@@ -54,7 +54,7 @@ SAMPLE REQUEST:CREATE RECIPE
     "ingredients":["maida","oil","water"]
 }
 
-SAMLE RESPONSE:CREATE RECIPE
+### SAMPLE RESPONSE:CREATE RECIPE
 
 {
     "message": "Recipe created successfully",
@@ -73,7 +73,7 @@ SAMLE RESPONSE:CREATE RECIPE
 
 
 
-SAMPLE REQUEST:UPDATE RECIPE
+### SAMPLE REQUEST:UPDATE RECIPE
 
 {
         "name": "egg dosa",
@@ -85,7 +85,7 @@ SAMPLE REQUEST:UPDATE RECIPE
         ]
     }
 
-SAMPLE RESPONSE:UPDATE RECIPE
+### SAMPLE RESPONSE:UPDATE RECIPE
 
 {
     "message": "Recipe updated successfully",
@@ -105,7 +105,7 @@ SAMPLE RESPONSE:UPDATE RECIPE
 
 
 
-SAMPLE RESPONSE:DELETE RECIPE
+### SAMPLE RESPONSE:DELETE RECIPE
 
 {
     "message": "Successfully deleted",
