@@ -1,10 +1,13 @@
+
+// ENVIRONMENT CONFIGURATION
+require("dotenv").config();
+
 const Express = require("express");
 const { createDbConnection } = require("./db");
 
 const RecipeController = require("./controllers/Recipes.Controller");
 
-// ENVIRONMENT CONFIGURATION
-require("dotenv").config();
+
 
 // CREATE AN API SERVER
 const API_SERVER = Express();
